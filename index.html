@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Efecto Doppler</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="Estilo.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,11 +12,12 @@
 	
 </head>
 <body>
+	
 	<div id="container">
-		<header>
+		<header id="main-header">
 			<h1>Efecto Doppler</h1>
 		</header>	
-
+	</div>
 		<div class="clear"></div>
 		<section id="contenido">
 			<article class="contenido">
@@ -24,43 +25,105 @@
 				<p>El <strong>efecto Doppler</strong> es el fenómeno por el cual la frecuencia de las ondas percibida por un observador varía cuando el foco emisor o el propio observador se desplazan uno respecto al otro.</p>
 				<ul>
 					<li>
-						<a href="#descripcion">Descripcion del fenomeno</a>
+						<a href="#descripcion">¿Qué es el Efecto Doppler?</a>
+					</li>
+					<li>
+						<a href="#Formula">Fórmula</a>
+					</li>
+					<li>
+						<a href="#uso">Usos del efecto Doppler</a>
 					</li>
 				</ul>
-				<h2 id="descripcion">Introduccion</h2>
+				<h2 id="descripcion">¿Que es el Efecto Doppler?</h2>
 				<p>
+				El efecto Doppler puede observarse en cualquier tipo de onda: onda de agua, onda de sonido, onda de luz, etc. Estamos más familiarizados con el efecto Doppler por nuestras experiencias con las ondas sonoras. 
 				Aunque se puede definir con ecuaciones precisas, el efecto Doppler también se puede describir conceptualmente. Cuando la fuente de ondas repetitivas a frecuencia constante se mueve hacia el observador, cada cresta sucesiva de la serie de ondas comienza en una posición que está ligeramente más cerca del observador que la cresta de la onda anterior. Por lo tanto, cada onda sucesiva tarda un poco menos en llegar al observador que la anterior; esto, a su vez, tiene el efecto de reducir el tiempo de llegada entre las sucesivas crestas de onda en el observador, lo que corresponde a un aumento en la frecuencia observada.
 				El Efecto Doppler y el corrimiento Doppler deben su nombre al físico y matemático austriaco Christian Johann Doppler (1803-1853), quien hizo experimentos con fuentes y observadores en movimiento. Doppler, por ejemplo, hizo que los músicos tocaran en un vagón de tren abierto en movimiento y que también lo hicieran parados junto a las vías del tren mientras este pasaba. Se observó su música tanto dentro como fuera del tren, y se midieron los cambios de frecuencia.
 				</p>
-				<h2 id="descripcion">Introduccion</h2>
-				<p>
-					
-				</p>
-				<h2 id="descripcion">Introduccion</h2>
-				<p>
-					
-				</p>
+				<iframe class="imagenes" width="560" height="315" src="https://www.youtube.com/embed/slBczgRNwU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<div>
-					<img class="imagenes" src="efecto-doppler.jpg" >
+					<img class="imagenes" src="3C5LRC7CU5OLLPKBBXRHRTKJQU.gif" >
 				</div>
+				<h2 id="Formula">Formula</h2>
+				<p>
+					El efecto Doppler es el cambio aparente en la frecuencia de las ondas debido al movimiento relativo entre la fuente del sonido y el observador. Podemos deducir la frecuencia aparente en el efecto Doppler mediante la siguiente ecuación:
+				
+				<div>
+					<img class="imagenes" src="Doppler-Effect-new.png" >
+				</div>
+				Si bien solo hay una ecuación de efecto Doppler, la ecuación anterior cambia en diferentes situaciones según las velocidades del observador o la fuente del sonido. Veamos a continuación cómo podemos utilizar la ecuación del efecto Doppler en diferentes situaciones.
+
+				<h3>Fuente que se mueve hacia el observador en reposo</h3>
+				
+				En este caso, la velocidad del observador es cero, por lo que vo es igual a cero. Sustituyendo esto en la ecuación del efecto Doppler anterior, obtenemos la ecuación del efecto Doppler cuando una fuente se mueve hacia un observador en reposo como:
+
+				<div>
+					<img class="imagenes" src="Doppler-Effect-7.png" >
+				</div>
+
+				<h3>Fuente alejándose del observador en reposo</h3>
+				Como la velocidad del observador es cero, podemos eliminar vo de la ecuación. Pero esta vez, la fuente se aleja del observador, por lo que su velocidad es negativa para indicar la dirección. Por lo tanto, la ecuación ahora queda de la siguiente manera:
+				<div>
+					<img class="imagenes" src="Doppler-Effect-8.png" >
+				</div>
+
+				<h3>Observador moviéndose hacia una fuente estacionaria</h3>
+				En este caso, v s será igual a cero, por lo que obtenemos la siguiente ecuación:
+				<div>
+					<img class="imagenes" src="Doppler-Effect-6.png" >
+				</div>
+
+				<h3>Observador alejándose de una fuente estacionaria</h3>
+				Como el observador se aleja, la velocidad del observador se vuelve negativa. Entonces, en lugar de sumar v o , ahora restamos, ya que v o es negativo.
+				<div>
+					<img class="imagenes" src="Doppler-Effect-4.png" >
+				</div>
+			</p>
+
+			<h2 id="uso">Usos del efecto Doppler</h2>
+				<dt>Muchos confunden el efecto Doppler con ser aplicable solo a las ondas sonoras. Funciona con todo tipo de ondas incluida la luz. A continuación, enumeramos algunas aplicaciones del efecto doppler:
+				</dt>
+
+			<p>
+			<ul>
+
+				<dd><li type="circle">sirenas</li></dd>
+				<li type="circle">Radar</li>
+				<li type="circle">Astronomía</li>
+				<li type="circle">Imagenes medicas</li>
+				<li type="circle">Medición del flujo sanguíneo</li>
+				<li type="circle">Comunicación por satélite</li>
+				<li type="circle">Medición de vibraciones</li>
+				<li type="circle">Biología del desarrollo</li>
+				<li type="circle">Audio</li>
+				<li type="circle">Medición del perfil de velocidad</li>
+
+			</ul>
+			<img class="imagenes" src="efecto-doppler-astronomia.jpg" >
+
+			</p>
 			</article>
 		</section>
-		<footer>
-		<div>
+		<br>
+		
+		
 		<h2>Fuentes</h2>
+		<blockquote>
+		 	<footer>
+		 		<cite><a href="https://www.fisicalab.com/apartado/efecto-doppler#aplicaciones">Efecto Doppler. (2022). Fisicalab. Recuperado 19 de abril de 2022, de https://www.fisicalab.com/apartado/efecto-doppler#aplicaciones</a></cite>
+		 	</footer>
 		
-		 <li>
-		 	<a href="https://www.fisicalab.com/apartado/efecto-doppler#aplicaciones">Efecto Doppler. (2022). Fisicalab. Recuperado 19 de abril de 2022, de https://www.fisicalab.com/apartado/efecto-doppler#aplicaciones</a>
-		 </li>
-		 <li>
-		 	<a href="https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/17-7-el-efecto-doppler">17.7 El Efecto Doppler - Física Universitaria Volumen 1 | OpenStax. (2022). openstax. Recuperado 19 de abril de 2022, de https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/17-7-el-efecto-doppler</a>
-		 </li>
-		</div>
-		</footer>
+		<br>
+		 	<footer>
+		 		<cite><a href="https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/17-7-el-efecto-doppler">17.7 El Efecto Doppler - Física Universitaria Volumen 1 | OpenStax. (2022). openstax. Recuperado 19 de abril de 2022, de https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/17-7-el-efecto-doppler</a></cite>
+		 	</footer>
+		<br>
+		<footer>
+			<cite><a href="Physics Tutorial: The Doppler Effect. (2022). Physics Tutorial. Recuperado 20 de abril de 2022, de https://www.physicsclassroom.com/class/waves/Lesson-3/The-Doppler-Effect "></a></cite>
+		</footer>	
+			
+		
+		</blockquote>
 
-	</div>
-
-		
-		
 </body>
 </html>
